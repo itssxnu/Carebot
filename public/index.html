@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Haiiiiii</title>
+</head>
+
+<body>
+
+    <div  class="particles" id="particles-js"></div>
+
+    <main>
+        <div class="title">
+            <h1>CAREBOT</h1>
+        </div>
+        <div class="lokupettiya" id="lokka">
+            <div class="pettiya">
+                <div class="loginpettiya">
+                    <form id="loginForm" action="/login" method="post">
+                        <div class="heading">
+                            <h1 class="uda" id="welcome">WELCOME!</h1>
+                            <h2 class="uda" id="lesgo">Let's Get Started </h2>
+                        </div>
+                        <div class="form">
+                            <div class="input-wrap">
+                                <label for="username">USERNAME</label>
+                                <input type="text" class="input-field" id="username" name="username" autocomplete="off"
+                                    required>
+                            </div>
+                            <div class="input-wrap">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" class="input-field" id="password" name="password" required>
+                            </div>
+                            <div class="button-wrap">
+                                <button type="submit" class="button" id="submit">Log In</button>
+                            </div>
+                            <div id="loadingSpinner" style="display: none;">
+                                <img src="assets/Animation.gif" alt="Loading..." />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="gani">
+                    <img src="assets/3255382-removebg.png" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

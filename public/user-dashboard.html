@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAREBOT Dashboard</title>
+    <link rel="stylesheet" href="css/nurse.css">
+</head>
+
+<body>
+
+    <div id="particles-js"></div>
+
+    <div class="header">
+        <h1>CAREBOT</h1>
+        <nav>
+            <!--  <a href="#" id="adminButton">Data History</a>  -->
+            <a href="#">About Us</a>
+            <a href="index.html" id="tata">Log Out</a>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="data">
+            <div id="patient" class="details">
+                <h2>Patient Details</h2>
+                <div id="ptemp" class="card">
+                    <h3>Patient Temperature</h3>
+                    <img src="assets/humantemp.png" alt="">
+                    <p>37 C</p>
+                    <p>STATUS: Normal</p>
+                </div>
+                <div id="heart" class="card">
+                    <h3>Patient Heart Rate</h3>
+                    <img src="assets/heartbeat.png" alt="">
+                    <p>78 BPM</p>
+                    <p>STATUS: Normal</p>
+                </div>
+                <div id="watunada" class="card">
+                    <h3>Patient Status</h3>
+                    <img src="assets/hospitalbed.png" alt="">
+                    <p>STATUS</p>
+                    <p>Good</p>
+                </div>
+            </div>
+
+            <div id="room" class="details">
+                <h2>Room Data</h2>
+                <div class="card">
+                    <h3>Room Temperature</h3>
+                    <img src="assets/housetemp.png" alt="">
+                    <p>21 C</p>
+                    <p>STATUS: Normal</p>
+                </div>
+                <div class="card">
+                    <h3>Humidity</h3>
+                    <img src="assets/humidity.png" alt="">
+                    <p>45%</p>
+                    <p>STATUS: Normal</p>
+                </div>
+                <div class="card">
+                    <h3>CO2 Percentage</h3>
+                    <img src="assets/co2.png" alt="">
+                    <p>764 PPM</p>
+                    <p>STATUS: Normal</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="pills" class="motor">
+            <div id="medication" class="meddetails">
+                <div class="medcard">
+                    <div>
+                        <h2>Medication</h2>
+                        <img src="assets/medication.png" alt="" class="podiecala">
+                    </div>
+                    <div>
+                        <h3>Last Dispensed Time</h3>
+                        <p>06:30 AM</p>
+                    </div>
+                    <div>
+                        <h3>Next Dispensing Time</h3>
+                        <p>06:30 AM</p>
+                    </div>
+                    <button>Manual Dispense</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/dashboard.js"></script>
+
+</body>
+
+</html>
